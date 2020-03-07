@@ -1,0 +1,73 @@
+.container__background{
+    width: 100%;
+    height: 800px;
+    background-image: url('/assets/images/nordic.jpg');
+    background-size: cover;
+    display: block;
+  }
+  
+  .container{
+    width: 300px;
+    height: 300px;
+    border: 20px solid rgba(0, 0, 0, 0.3);
+    background-clip: padding-box;
+    background-color: whitesmoke;
+    position: absolute;
+    display: block;
+    border-radius: 10px;
+    top: 200px;
+    left: 30px;
+    text-align: center;
+    transition: 0.2s;
+  }
+  
+  .container:hover{
+    cursor: pointer;
+    top: 195px;
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+  }
+  
+  .container__mirazur{
+      left: 120px;
+  }
+
+  .container__noma{
+    left: 600px;
+  }
+  
+  .container__asador{
+    left: 1060px;
+  }
+  
+  .img__container{
+    width: 290px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 10px;
+  
+  }
+  
+  .text__container{
+    position: relative;
+    top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .window{
+    border: 20px solid rgba(0, 0, 0, 0.3);
+    background-clip: padding-box;
+    background-color: whitesmoke;
+    width: 500px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 150px;
+    position: relative;
+  }
+  
+  .window.ng-enter, .window.ng-leave {    
+   transition: 1s;
+}
+  
+  

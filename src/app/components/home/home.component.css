@@ -1,0 +1,16 @@
+.homePage{
+    width: 100%;
+    height: 800px;
+    display: block;
+    background-image: url('/assets/images/background1.png');
+    background-size: cover;
+  }
+  
+  .lable{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 250px;
+  }
+  
