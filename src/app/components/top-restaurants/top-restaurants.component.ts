@@ -11,7 +11,7 @@ import { trigger, transition, style, animate, state } from '@angular/animations'
         style({ opacity: 1 }),
         animate('2s', style({ opacity: 0 }))
       ]),
-      transition('* => void', [animate('2s', style({ opacity: 0 }))
+      transition('* => void', [animate('2s', style({ opacity: 1 }))
     ])
     ])
   ]
