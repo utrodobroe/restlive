@@ -5,33 +5,11 @@
        1.Mirazur Restaurant
      </p>
     </section>
-    <section class="container container__noma">
-      <img class="img img__container img__container-noma" src="/assets/images/book_img.jpg">
-     <p class="text text__container tex__container-noma">
-       2.Noma Restaurant
-     </p>
-    
-    </section>
-    <section class="container container__asador">
-      <img class="img img__container img__container-asador" src="/assets/images/Ray.jpg">
-     <p class="text text__container tex__container-asador">
-       3.Asador Etxebarr Restaurant
-     </p>
-    
-    </section>
     <section  class="window window__mirazu" *ngIf = "showHideMirazur" @animationWindow>
     <p class="window__mirazu window__mirazu-text" > {{name}} <br> {{information}}</p>
     <button class="btn btn__close" (click) = "createCardClick()">Close</button>
     </section>
-    <section  class="window window__noma" *ngIf = "showHideNoma" @animationWindow>
-    <p class="window__mirazu window__noma-text" > {{name}} <br> {{information}}</p>
-    <button class="btn btn__close" (click) = "createCardClick()">Close</button>
-    </section>
-    <section  class="window window__asador" *ngIf = "showHideAsador" @animationWindow>
-    <p class="window__mirazu window__asador-text" > {{name}} <br> {{information}}</p>
-    <button class="btn btn__close" (click) = "createCardClick()">Close</button>
-    </section>
-    </div>
+   
     
     
     

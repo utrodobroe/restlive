@@ -66,8 +66,5 @@
     position: relative;
   }
   
-  .window.ng-enter, .window.ng-leave {    
-   transition: 1s;
-}
   
   

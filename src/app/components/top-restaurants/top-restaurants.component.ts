@@ -8,10 +8,10 @@ import { trigger, transition, style, animate, state } from '@angular/animations'
   animations: [
     trigger ('animationWindow', [
       transition('void => *', [
-        style({ opacity: 0 }),
-        animate('1.3s', style({ opacity: 1 }))
+        style({ opacity: 1 }),
+        animate('2s', style({ opacity: 0 }))
       ]),
-      transition('* => void', [animate('1.2s', style({ opacity: 0 }))
+      transition('* => void', [animate('2s', style({ opacity: 0 }))
     ])
     ])
   ]
@@ -24,12 +24,17 @@ export class TopRestaurantsComponent implements OnInit {
   constructor() { }
 
   showHideMirazur: boolean;
+  showHideClose: true;
   name: string;
   information: string;
 
   createCardClick() {
-    this.showHideMirazur = !this.showHideMirazur;
+    this.showHideMirazur = !this.showHideMirazur
+
   }
+
+  
+   
 
   ngOnInit(): void {
     this.name = 'Restaurant Mirazur';
